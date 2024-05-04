@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slide Show</title>
+    <script src="https://kit.fontawesome.com/b96168f910.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+
+<body>
+
+    <div class="slideshow-contaner">
+        <div class="control">
+            <span class="imgN">1</span><span class="totalImgN"></span>
+            <i onclick="sliderBack()" id="prev" class="fa-solid fa-chevron-left"></i>
+            <i onclick="stop()" id="pause" class="fa-solid fa-pause"></i>
+            <i onclick="start()" id="play" class="fa-solid fa-play"></i>
+            <i onclick="sliderNext()" id="next" class="fa-solid fa-chevron-right"></i>
+        </div>
+        <div class="images">
+            <img class="image" src="./images/1.png" alt="">
+        </div>
+    </div>
+
+
+    <script src="./javascript/app.js"></script>
+</body>
+
+</html>
